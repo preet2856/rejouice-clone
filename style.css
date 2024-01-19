@@ -572,57 +572,7 @@ nav h4 {
 	font-family: Rejouice;
 }
 
-/* @media screen and (min-width:769px) and (max-width:1024px) {
-	.icon_name {
-		padding: 13px 10px 13px 5rem;
-		font-size: 1.2rem;
-	}
-}
-
-@media screen and (min-width:821px) and (max-width:912px) {}
-
-@media screen and (min-width:769px) and (max-width:820px) {}
-
-@media screen and (min-width:577px) and (max-width:768px) {} */
-
-/* 
-@media screen and (max-width:576px) {
-	.top_deatils h1 {
-		font-size: 2rem;
-	}
-
-	.top_deatils p {
-		font-size: 1.2rem;
-	}
-
-	.box_1 {
-		height: 300px;
-		width: 255px;
-	}
-
-	.icon_name {
-		padding: 13px 10px 13px 5.5rem;
-		font-size: 1.2rem;
-	}
-
-	.icon_img {
-		left: -4px;
-	}
-
-	.catelogs {
-		padding: 1rem;
-	}
-
-	.col-xsm-6 {
-		max-width: 50%;
-	}
-
-	.title {
-		font-size: 1.7rem;
-	}
-} */
-
-@media screen and (max-width:375px) {
+@media (max-width:600px) {
 	#loader h3 {
 		font-size: 5.8vw;
 	}
@@ -765,15 +715,8 @@ nav h4 {
 	}
 
 	#swiperdiv {
-		height: 20vh;
-		width: 100%;
-		position: relative;
+		height: 25vh;
 		margin-top: -16%;
-	}
-
-	.swiper {
-		width: 130%;
-		height: 100%;
 	}
 
 	#part5 #team {
@@ -817,7 +760,7 @@ nav h4 {
 	}
 
 	.footer-t-left-up {
-	width: 50%;
+		width: 50%;
 		gap: 4vw;
 	}
 
@@ -840,13 +783,13 @@ nav h4 {
 		justify-content: space-between;
 		align-items: flex-start;
 	}
-	
+
 	.footer-t-right-up ul li {
 		font-size: 3vw;
 	}
 
 	.footer-t-right-down p {
-		font-size: 2.5vw;
+		font-size: 2.6vw;
 	}
 
 	#footer-bottom h1 {

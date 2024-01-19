@@ -80,11 +80,13 @@ function Part2Animation() {
 		y: 120,
 		stagger: 0.2,
 		duration: 1,
+		opacity: 0,
 		scrollTrigger: {
 			trigger: "#part2",
 			scroller: "#main",
 			start: "top 40%",
 			end: "top 37%",
+			opacity: 1,
 			scrub: 2,
 		}
 	})
@@ -96,11 +98,13 @@ function Part4Animation() {
 		y: 120,
 		stagger: 0.2,
 		duration: 1,
+		opacity: 0,
 		scrollTrigger: {
 			trigger: "#part4",
 			scroller: "#main",
 			start: "top 40%",
 			end: "top 37%",
+			opacity: 1,
 			scrub: 2,
 		}
 	})
@@ -112,11 +116,13 @@ function Part5Animation() {
 		y: 120,
 		stagger: 0.2,
 		duration: 1,
+		opacity: 0,
 		scrollTrigger: {
 			trigger: "#part5",
 			scroller: "#main",
 			start: "top 40%",
 			end: "top 37%",
+			opacity: 1,
 			scrub: 2,
 		}
 	})
