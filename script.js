@@ -171,5 +171,23 @@ tl.from("#part1-content h1 span", {
 	opacity: 0,
 	stagger: 0.1,
 	duration: 0.5,
-	delay: -0.5
+	delay: 0.5
 })
+
+function footerAnimation() {
+	gsap.from("#footer-bottom h1 span", {
+		y: -100,
+		opacity: 0,
+		stagger: 0.1,
+		duration: 0.5,
+		delay: 3,
+		scrollTrigger: {
+			trigger: "#footer",
+			scroller: "#main",
+			start: "top 40%",
+			end: "top 37%",
+			scrub: 4,
+		}
+	})
+}
+footerAnimation()

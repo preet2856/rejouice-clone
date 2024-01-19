@@ -457,17 +457,9 @@ nav h4 {
 	transform: rotate(90deg);
 }
 
-#part6 {
+#footer {
 	width: 100%;
 	height: 100vh;
-}
-
-footer {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	bottom: 0;
-	z-index: 9;
 	color: #D8D5CC;
 	padding: 3.5vw 3vw;
 	display: flex;
@@ -509,17 +501,17 @@ footer {
 	font-weight: 500;
 }
 
-.seat {
+.footer-t-left-up a {
 	font-size: 1.2vw;
 	border-radius: 10px;
 	padding: 1vw 1.5vw;
-	background: #000000;
+	background-color: #000000;
 	border: 1px solid #D8D5CC;
 	transition: all 0.5s ease;
 }
 
-.seat:hover {
-	background: #FAF8F3;
+.footer-t-left-up a:hover {
+	background-color: #D8D5CC;
 	color: #000000;
 }
 
@@ -545,10 +537,35 @@ footer {
 	list-style: none;
 	font-size: 1.2vw;
 	font-weight: 400;
+	/* overflow: hidden; */
 }
 
-.footer-t-right-up ul li a:hover li{
-	background-color: #FF5F38;
+.footer-t-right a{
+	color: #D8D5CC;
+	font-size: 1.1vw;
+	font-weight: 500;
+	position: relative;
+	transition: all .3s ease-out;
+}
+
+.footer-t-right a::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	height: 1px;
+	width: 0;
+	background: #FF5F38;
+	transition: all .3s ease-out;
+}
+
+.footer-t-right a:hover {
+	color: #FF5F38;
+}
+
+.footer-t-right a:hover::before {
+	width: 100%;
+	left: 0;
 }
 
 .footer-t-right-down {
@@ -574,6 +591,10 @@ footer {
 	z-index: 99999;
 	display: inline-block;
 	font-family: Rejouice;
+}
+
+#footer a {
+	z-index: 9999999;
 }
 
 @media (max-width:600px) {
@@ -788,7 +809,7 @@ footer {
 		align-items: flex-start;
 	}
 
-	.footer-t-right-up ul li a{
+	.footer-t-right-up ul li a {
 		font-size: 3vw;
 	}
 
