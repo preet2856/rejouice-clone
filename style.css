@@ -540,7 +540,7 @@ nav h4 {
 	/* overflow: hidden; */
 }
 
-.footer-t-right a{
+.footer-t-right a {
 	color: #D8D5CC;
 	font-size: 1.1vw;
 	font-weight: 500;
@@ -760,16 +760,13 @@ nav h4 {
 		font-size: 2.1vw;
 	}
 
-	#part6 {
-		height: 60vh;
-	}
-
 	#footer {
-		height: 60%;
+		height: 100vh;
 		border-top: 10px solid #FF5F38;
 	}
 
 	.footer-top {
+		height: 80%;
 		gap: 3vw;
 		flex-direction: column;
 	}
@@ -780,7 +777,6 @@ nav h4 {
 
 	.footer-t-left {
 		padding: 3vw 0;
-		align-items: end;
 		flex-direction: row;
 	}
 
@@ -809,12 +805,22 @@ nav h4 {
 		align-items: flex-start;
 	}
 
-	.footer-t-right-up ul li a {
-		font-size: 3vw;
+	.footer-t-right-up {
+		flex-direction: column;
 	}
 
+	.footer-t-right-up ul li a {
+		font-size: 4vw;
+	}
+
+	.footer-t-right-down {
+		flex-direction: column;
+		align-items: end;
+	}
+
+	.footer-t-right-down a,
 	.footer-t-right-down p {
-		font-size: 2.6vw;
+		font-size: 4vw;
 	}
 
 	#footer-bottom h1 {

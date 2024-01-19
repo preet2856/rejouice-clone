@@ -21,6 +21,38 @@ function locoScroll() {
 }
 locoScroll()
 
+var tl = gsap.timeline()
+
+tl.from("#loader h3", {
+	x: 40,
+	opacity: 0,
+	duration: 1,
+	stagger: 0.1
+})
+
+tl.to("#loader h3", {
+	opacity: 0,
+	y: -40,
+	duration: 1,
+	stagger: 0.1,
+})
+
+tl.to("#loader", {
+	opacity: 0,
+})
+
+tl.to("#loader", {
+	display: "none"
+})
+
+tl.from("#part1-content h1 span", {
+	y: 100,
+	opacity: 0,
+	stagger: 0.1,
+	duration: 0.5,
+	delay: 0.5
+})
+
 function cursorEffect() {
 	var p1c = document.querySelector("#part1-content");
 	var cursor = document.querySelector("#cursor");
@@ -141,38 +173,6 @@ function sliderAnimation() {
 	});
 }
 sliderAnimation()
-
-var tl = gsap.timeline()
-
-tl.from("#loader h3", {
-	x: 40,
-	opacity: 0,
-	duration: 1,
-	stagger: 0.1
-})
-
-tl.to("#loader h3", {
-	opacity: 0,
-	y: -40,
-	duration: 1,
-	stagger: 0.1,
-})
-
-tl.to("#loader", {
-	opacity: 0,
-})
-
-tl.to("#loader", {
-	display: "none"
-})
-
-tl.from("#part1-content h1 span", {
-	y: 100,
-	opacity: 0,
-	stagger: 0.1,
-	duration: 0.5,
-	delay: 0.5
-})
 
 function footerAnimation() {
 	gsap.from("#footer-bottom h1 span", {
