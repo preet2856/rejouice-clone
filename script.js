@@ -161,13 +161,15 @@ tl.to("#loader h3", {
 tl.to("#loader", {
 	opacity: 0,
 })
+
+tl.to("#loader", {
+	display: "none"
+})
+
 tl.from("#part1-content h1 span", {
 	y: 100,
 	opacity: 0,
 	stagger: 0.1,
 	duration: 0.5,
 	delay: -0.5
-})
-tl.to("#loader", {
-	display: "none"
 })
