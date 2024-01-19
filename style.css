@@ -82,11 +82,6 @@ a {
 	font-weight: 500;
 }
 
-#part1 {
-	width: 100%;
-	height: 100vh;
-}
-
 #part1 video {
 	position: absolute;
 	width: 100%;
@@ -305,6 +300,7 @@ nav h4 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 #part4-cursor {
@@ -386,6 +382,7 @@ nav h4 {
 
 #part5-bottom {
 	padding: 5vw 0;
+	overflow: hidden;
 }
 
 #p5b-top {
@@ -573,4 +570,286 @@ nav h4 {
 	z-index: 99999;
 	display: inline-block;
 	font-family: Rejouice;
+}
+
+/* @media screen and (min-width:769px) and (max-width:1024px) {
+	.icon_name {
+		padding: 13px 10px 13px 5rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width:821px) and (max-width:912px) {}
+
+@media screen and (min-width:769px) and (max-width:820px) {}
+
+@media screen and (min-width:577px) and (max-width:768px) {} */
+
+/* 
+@media screen and (max-width:576px) {
+	.top_deatils h1 {
+		font-size: 2rem;
+	}
+
+	.top_deatils p {
+		font-size: 1.2rem;
+	}
+
+	.box_1 {
+		height: 300px;
+		width: 255px;
+	}
+
+	.icon_name {
+		padding: 13px 10px 13px 5.5rem;
+		font-size: 1.2rem;
+	}
+
+	.icon_img {
+		left: -4px;
+	}
+
+	.catelogs {
+		padding: 1rem;
+	}
+
+	.col-xsm-6 {
+		max-width: 50%;
+	}
+
+	.title {
+		font-size: 1.7rem;
+	}
+} */
+
+@media screen and (max-width:375px) {
+	#loader h3 {
+		font-size: 5.8vw;
+	}
+
+	#cursor {
+		width: 15vw;
+		height: 15vw;
+	}
+
+	#cursor h5 {
+		font-size: 3.1vw;
+	}
+
+	nav {
+		padding: 6vw;
+	}
+
+	nav h3,
+	nav h4 {
+		font-size: 5vw;
+	}
+
+	#part1-content h1 {
+		line-height: 50vw;
+	}
+
+	#part2 {
+		height: 30vh;
+	}
+
+	#part2-heading {
+		padding: 2.5vw 0;
+	}
+
+	#part2-heading h4 {
+		font-size: 3.2vw;
+	}
+
+	#elem h1 {
+		font-size: 4.2vw;
+		line-height: 5vw;
+	}
+
+	#part3 {
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		padding: 3vw;
+		background-color: #FAF8F3;
+	}
+
+	#part3-top {
+		text-align: center;
+	}
+
+	#part3-top h4 {
+		font-size: 3vw;
+	}
+
+	#part3-top h4 span {
+		font-size: 2vw;
+	}
+
+	#part3-top h2 {
+		font-size: 6vw;
+	}
+
+	#part3-top h4 i {
+		font-size: 2vw;
+	}
+
+	#part3-elements-head h1 {
+		font-size: 3vw;
+	}
+
+	#part3-elements-head h1 i {
+		font-size: 3vw;
+	}
+
+	#box-wrapper {
+		flex-direction: column;
+	}
+
+	#box-wrapper #box {
+		width: 100%;
+	}
+
+	#part4 {
+		height: 80vh;
+	}
+
+	#part4-heading h4 {
+		font-size: 3.2vw;
+	}
+
+	#part4-elem {
+		padding: 1vw 0;
+	}
+
+	#part4-cursor {
+		width: 15vw;
+		height: 15vw;
+	}
+
+	#part4-cursor h5 {
+		font-size: 3.1vw;
+	}
+
+	#part4-bottom {
+		height: 80%;
+	}
+
+	#part4-bottom #part4b-center h1 {
+		font-size: 6vw;
+	}
+
+	#part4-bottom #part4b-center h3 {
+		font-size: 3.1vw;
+	}
+
+	#part5 {
+		height: 80vh;
+	}
+
+	#part5-heading h4 {
+		font-size: 3.2vw;
+	}
+
+	#part5-bottom #p5b-top h1 {
+		font-size: 13vw;
+		line-height: 10vw;
+	}
+
+	#part5-bottom #p5b-top h2 {
+		font-size: 3vw;
+	}
+
+	#part5-bottom #p5b-top h2 i {
+		font-size: 3vw;
+	}
+
+	#swiperdiv {
+		height: 20vh;
+		width: 100%;
+		position: relative;
+		margin-top: -16%;
+	}
+
+	.swiper {
+		width: 130%;
+		height: 100%;
+	}
+
+	#part5 #team {
+		height: 30vh;
+	}
+
+	#part5 #team h1 {
+		font-size: 8vw;
+	}
+
+	#part5 #team h3 {
+		font-size: 3.2vw;
+	}
+
+	#part5 #team h3 i {
+		font-size: 2.1vw;
+	}
+
+	#part6 {
+		height: 60vh;
+	}
+
+	#footer {
+		height: 60%;
+		border-top: 10px solid #FF5F38;
+	}
+
+	.footer-top {
+		gap: 3vw;
+		flex-direction: column;
+	}
+
+	.footer-top .footer-t-up {
+		width: 100%;
+	}
+
+	.footer-t-left {
+		padding: 3vw 0;
+		align-items: end;
+		flex-direction: row;
+	}
+
+	.footer-t-left-up {
+	width: 50%;
+		gap: 4vw;
+	}
+
+	.footer-t-left-up h1 {
+		font-size: 6vw;
+	}
+
+	.footer-t-left-up p {
+		font-size: 4vw;
+		padding: 2.5vw 3vw;
+	}
+
+	.footer-t-left-down h3 {
+		font-size: 4vw;
+	}
+
+	.footer-t-right {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	
+	.footer-t-right-up ul li {
+		font-size: 3vw;
+	}
+
+	.footer-t-right-down p {
+		font-size: 2.5vw;
+	}
+
+	#footer-bottom h1 {
+		line-height: 40vw;
+	}
 }
